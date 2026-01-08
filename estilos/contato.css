@@ -1,0 +1,100 @@
+/*Estilização da pagina contato*/
+.contact {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact img {
+    text-align: center;
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    border-radius: 10px;
+    outline: 2px solid #4CAF50;
+    border: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #e2e2e2;
+    outline-offset: 3px;
+    padding: 10px 1rem;
+    transition: 0.25s;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.input:focus {
+    outline-offset: 5px;
+    background-color: #fff;
+}
+
+.button4 {
+    background-color: #4CAF50;
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.2s, opacity 0.2s, transform 0.2s;
+    box-shadow: #3f9142 0px 7px 2px, #000 0px 8px 5px;
+    border-radius: 5px;
+    opacity: 0.9;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+.button4:hover {
+    opacity: 1;
+    background-color: #45a049;
+}
+
+.button4:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.contact-info img {
+    width: 24px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.contact-info p {
+    margin: 0;
+}

@@ -17,10 +17,10 @@
         </div>
         <nav>
             <ul class="menu">
-                <li><a class="itens" href="index.html">Inicio</a></li>
-                <li><a class="itens" href="produtos.html">Produtos</a></li>
-                <li><a class="itens" href="galeria.html">Galeria</a></li>
-                <li><a class="itens" href="contato.html">Contato</a></li>
+                <li><a class="itens" href="#">Inicio</a></li>
+                <li><a class="itens" href="#">Produtos</a></li>
+                <li><a class="itens" href="#">Galeria</a></li>
+                <li><a class="itens" href="#">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -29,40 +29,45 @@
             <h1>Mais <span>vantagens</span> pra você</h1>
             <h1>mais <span>beneficios</span> pros seus pets!</h1>
             <p>Confira nossos serviços e produtos exclusivos para o seu animal de estimação.</p>
-            <button>Click para Saber Mais</button>
+            <button id="botao-principal">Click para Saber Mais</button>
         </section>
 
-        <section>
-            <h2>Nossos Serviços</h2>
-            <p>Oferecemos uma variedade de serviços para cuidar do seu pet com todo o carinho que ele merece.</p>
-            <div class="servicos">
-                <h3>Limpeza e Tosa</h3>
-                <img src="#" alt="">
-                <p>Com uma equipe dedicada e apaixonada por animais, nossos profissionais treinados estão prontos para
-                    oferecer os melhores cuidados para o seu pet.</p>
-                <button>Saiba Mais</button>
+        <section class="servicos">
+            <div id="titulo-servicos">
+                <h2>Nossos Serviços</h2>
+                <p>Oferecemos uma variedade de serviços para cuidar do seu pet com todo o carinho que ele merece.</p>
             </div>
-            <div class="servicos">
-                <h3>Brinquedos e Acessórios</h3>
-                <img src="#" alt="">
-                <p>Oferecemos uma ampla variedade de brinquedos e acessórios para o seu pet, selecionados
-                    com carinho para garantir diversão e segurança.</p>
-                <button>Saiba Mais</button>
-            </div>
-            <div class="servicos">
-                <h3>Ração</h3>
-                <img src="#" alt="">
-                <p>Sabemos que a alimentação é fundamental para a saúde do seu pet, por isso oferecemos uma ampla
-                    variedade de rações de alta qualidade e alimentos balanceados.</p>
-                <button>Saiba Mais</button>
+            <div class="container-servicos">
+                <div class="servico">
+                    <h3>Limpeza e Tosa</h3>
+                    <img src="./image/banho.jpeg" alt="">
+                    <p>Com uma equipe dedicada e apaixonada por animais, nossos profissionais treinados estão prontos
+                        para
+                        oferecer os melhores cuidados para o seu pet.</p>
+                    <button class="botao-saber-mais">Saiba Mais</button>
+                </div>
+                <div class="servico">
+                    <h3>Brinquedos e Acessórios</h3>
+                    <img src="./image/brinquedo.jpeg" alt="">
+                    <p>Oferecemos uma ampla variedade de brinquedos e acessórios para o seu pet, selecionados
+                        com carinho para garantir diversão e segurança.</p>
+                    <button class="botao-saber-mais">Saiba Mais</button>
+                </div>
+                <div class="servico">
+                    <h3>Ração</h3>
+                    <img src="./image/ração.jpg" alt="">
+                    <p>Sabemos que a alimentação é fundamental para a saúde do seu pet, por isso oferecemos uma ampla
+                        variedade de rações de alta qualidade e alimentos balanceados.</p>
+                    <button class="botao-saber-mais">Saiba Mais</button>
+                </div>
             </div>
         </section>
 
         <section class="promocoes">
             <h2>Promoções Imperdiveis</h2>
-            <p>O melhor para quem você mais ama, por um preço que você adora!</p>
-            <p>Sabemos que seu pet é parte da família, e nada melhor do que mimar quem nos dá amor incondicional.
-                Preparamos uma seleção especial de petiscos, brinquedos e acessórios com descontos que vão fazer o rabo
+            <p><span>O melhor para quem você mais ama, por um preço que você adora!</span></p>
+            <p>Sabemos que seu pet é <span>da família</span> , e nada melhor do que <span>mimar quem nos dá amor incondicional.</span>
+                Preparamos uma <br> <span>seleção especial</span> de <span>petiscos, brinquedos e acessórios com descontos </span> que vão fazer o rabo
                 deles balançar de alegria!</p>
             <button>Quero mimar meu Pet</button>
         </section>
@@ -73,27 +78,27 @@
             <div class="column">
                 <h4>Institucional</h4>
                 <ul>
-                    <li><a href="#">Quem Somos</a></li>
-                    <li><a href="#">Falar com Atendente</a></li>
-                    <li><a href="#">Galeria</a></li>
+                    <li><a href="#" onclick="alert('Link do footer indisponível no momento.');">Quem Somos</a></li>
+                    <li><a href="#" onclick="alert('Link do footer indisponível no momento.');">Falar com Atendente</a></li>
+                    <li><a href="#" onclick="alert('Link do footer indisponível no momento.');">Galeria</a></li>
                 </ul>
             </div>
 
             <div class="column">
                 <h4>Suporte</h4>
                 <ul>
-                    <li><a href="#">Trocas e Devoluções</a></li>
-                    <li><a href="#">Principais Duvidas</a></li>
-                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#" onclick="alert('Link do footer indisponível no momento.');">Trocas e Devoluções</a></li>
+                    <li><a href="#" onclick="alert('Link do footer indisponível no momento.');">Principais Duvidas</a></li>
+                    <li><a href="#" onclick="alert('Link do footer indisponível no momento.');">FAQ</a></li>
                 </ul>
             </div>
 
             <div class="column">
                 <h4>Redes Sociais</h4>
                 <ul>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Tiktok</a></li>
-                    <li><a href="#">Whatsapp</a></li>
+                    <li><a href="#" onclick="alert('Link do footer indisponível no momento.');">Instagram</a></li>
+                    <li><a href="#" onclick="alert('Link do footer indisponível no momento.');">Tiktok</a></li>
+                    <li><a href="#" onclick="alert('Link do footer indisponível no momento.');">Whatsapp</a></li>
                 </ul>
             </div>
         </div>
@@ -102,6 +107,8 @@
             <p>&copy; 2026 Pet Shop - Todos os direitos reservados.</p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
