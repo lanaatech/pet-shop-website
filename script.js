@@ -43,4 +43,3 @@ let botaoPromocoes = document.querySelector('.promocoes button');
 botaoPromocoes.addEventListener('click', () => {
     alert('Promoções indisponiveis no momento. Volte mais tarde!');
 });
-

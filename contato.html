@@ -1,68 +1,103 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Melhor Amigo - Contato</title>
     <link href="img/logopreta.png" rel="icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="estilos/contato.css">
 </head>
+
 <body>
-    <header class="container-cabecalho">
+     <header>
         <div class="logo">
-            <img src="img/logo.png" alt="Logo do Melhor Amigo">
-        </div>
-        <div class="titulo">
-            <h1> Petshop Melhor Amigo</h1>
+            <img src="image/logo.png" alt="Logo do Melhor Amigo">
+            <h1>Petshop Melhor Amigo</h1>
         </div>
         <nav>
             <ul class="menu">
-                <li><a class="itens" href="index.html">Página Inicial</a></li>
-                <li><a class="itens" href="produtos.html">Produtos</a></li>
-                <li><a class="itens" href="galeria.html">Galeria</a></li>
-                <li><a class="itens" href="contato.html">Contato</a></li>
+                <li><a class="itens" href="#">Inicio</a></li>
+                <li><a class="itens" href="#">Produtos</a></li>
+                <li><a class="itens" href="#">Galeria</a></li>
+                <li><a class="itens" href="#">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-        <main>
-            <section class="contact">
-                <h2>Entre em Contato Conosco</h2>
-                <img src="img/logoverde.png" alt="">
-                <form id="contact-form">
-                    <input type="text" placeholder="Digite seu nome" name="name" class="input" id="name" required>
-                    <input type="email" placeholder="Digite seu email" name="email" class="input" id="email" required>
-                    <input type="tel" placeholder="Digite seu telefone" name="phone" class="input" id="phone" required>
-                    <textarea id="message" placeholder="Digite o que deseja" name="message" rows="4" class="input" required></textarea>
-                    <a href="#" class="button4">Enviar</a>
-                </form>
-            </section>
-    
-            <div class="contact-conteiner">
-                <div class="contact-info">
-                    <p>
-                        <img src="img/onibus-icone.svg" alt="Ícone de Endereço" class="phone-icon">
-                        Endereço: Rua Exemplo, 123 - Cidade
-                    </p>
-                </div>
-                <div class="contact-info">
-                    <p>
-                        <img src="img/telefone-icone.svg" alt="Ícone de Telefone" class="phone-icon">
-                        Telefone: (11) 1234-5678
-                    </p>
-                </div>
-                <div class="contact-info">
-                    <p>
-                        <img src="img/envelope-icone.svg" alt="Ícone de Email" class="phone-icon">
-                        E-mail: contato@melhoramigo.com.br
-                    </p>
-                </div>
+    <main>
+        <section class="contact">
+            <h2>Entre em Contato Conosco</h2>
+            <img src="img/logoverde.png" alt="">
+            <form id="contact-form">
+                <input type="text" placeholder="Digite seu nome" name="name" class="input" id="name" required>
+                <input type="email" placeholder="Digite seu email" name="email" class="input" id="email" required>
+                <input type="tel" placeholder="Digite seu telefone" name="phone" class="input" id="phone" required>
+                <textarea id="message" placeholder="Digite o que deseja" name="message" rows="4" class="input"
+                    required></textarea>
+                <a href="#" class="button4">Enviar</a>
+            </form>
+        </section>
+
+        <div class="contact-conteiner">
+            <div class="contact-info">
+                <p>
+                    <img src="img/onibus-icone.svg" alt="Ícone de Endereço" class="phone-icon">
+                    Endereço: Rua Exemplo, 123 - Cidade
+                </p>
             </div>
-        </main>
-        
+            <div class="contact-info">
+                <p>
+                    <img src="img/telefone-icone.svg" alt="Ícone de Telefone" class="phone-icon">
+                    Telefone: (11) 1234-5678
+                </p>
+            </div>
+            <div class="contact-info">
+                <p>
+                    <img src="img/envelope-icone.svg" alt="Ícone de Email" class="phone-icon">
+                    E-mail: contato@melhoramigo.com.br
+                </p>
+            </div>
+        </div>
+    </main>
+
     <footer>
-        <p>&copy; 2024 Melhor Amigo - Todos os direitos reservados</p>
+        <div class="colunas-footer">
+            <div class="column">
+                <h4>Institucional</h4>
+                <ul>
+                    <li><a href="#" onclick="alert('Link do footer indisponível no momento.');">Quem Somos</a></li>
+                    <li><a href="#" onclick="alert('Link do footer indisponível no momento.');">Falar com Atendente</a></li>
+                    <li><a href="#" onclick="alert('Link do footer indisponível no momento.');">Galeria</a></li>
+                </ul>
+            </div>
+
+            <div class="column">
+                <h4>Suporte</h4>
+                <ul>
+                    <li><a href="#" onclick="alert('Link do footer indisponível no momento.');">Trocas e Devoluções</a></li>
+                    <li><a href="#" onclick="alert('Link do footer indisponível no momento.');">Principais Duvidas</a></li>
+                    <li><a href="#" onclick="alert('Link do footer indisponível no momento.');">FAQ</a></li>
+                </ul>
+            </div>
+
+            <div class="column">
+                <h4>Redes Sociais</h4>
+                <ul>
+                    <li><a href="#" onclick="alert('Link do footer indisponível no momento.');">Instagram</a></li>
+                    <li><a href="#" onclick="alert('Link do footer indisponível no momento.');">Tiktok</a></li>
+                    <li><a href="#" onclick="alert('Link do footer indisponível no momento.');">Whatsapp</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Pet Shop - Todos os direitos reservados.</p>
+        </div>
     </footer>
 
+    <script src="script.js"></script>
 </body>
+
 </html>
